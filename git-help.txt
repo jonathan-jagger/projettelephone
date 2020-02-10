@@ -1,0 +1,16 @@
+$ ls						-- list
+$ cd <depot>					-- aller sur dossier
+$ cd ..						-- revenir au dossier pcedent
+$ cd						-- revenir au dossier parent
+$ ctrl + c					-- arreter application
+
+$ git clone <lien>				-- copier projet
+$ git checkout -b <nom branche>			-- creer branche
+$ git status					-- voir status
+$ git add .					-- ajouter projet sur branche
+$ git commit -m "message"				-- commiter
+$ git push --set-upstream origin <nom branche>	--ajouter au github
+
+$ git checkout master				-- revenir a la branche master
+$ git branch -D <nom branche>			-- supprimer branche
+
